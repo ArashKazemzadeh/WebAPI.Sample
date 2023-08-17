@@ -1,7 +1,9 @@
-﻿namespace WebAPI.Sample.Models.Dtos;
+﻿using Microsoft.AspNetCore.Mvc.Formatters;
+
+namespace WebAPI.Sample.Models.Dtos;
 
 public class AddToDoDto
 {
     public TodoDto Todo { get; set; }
-    public List<int> Categories { get; set; }
+    public List<int> Categories { get; set; } = new ();
 }

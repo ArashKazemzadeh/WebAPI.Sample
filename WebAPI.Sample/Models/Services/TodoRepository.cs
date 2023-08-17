@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using WebApi.Bugeto.Models.Contexts;
 using WebApi.Bugeto.Models.Entities;
 using WebAPI.Sample.Models.Dtos;
@@ -69,9 +70,10 @@ namespace WebApi.Bugeto.Models.Services
             };
         }
 
-        public void Delete(int Id)
+        public void Delete(int id)
         {
-            _context.ToDos.Remove(new ToDo { Id = Id });
+          var todo=  _context.ToDos.SingleOrDefault(t => t.Id == id);
+          todo.IsRemoved = true;
             _context.SaveChanges();
         }
 

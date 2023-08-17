@@ -8,6 +8,7 @@ D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\WebAPI.Sample.pdb
 D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Azure.Core.dll
 D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Azure.Identity.dll
 D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Humanizer.dll
+D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Codes\WebAPI.Sample\WebAPI.Sample\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
